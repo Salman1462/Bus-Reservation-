@@ -304,14 +304,14 @@ CREATE TABLE IF NOT EXISTS `django_admin_log` (
 --
 
 INSERT INTO `django_admin_log` (`id`, `action_time`, `object_id`, `object_repr`, `action_flag`, `change_message`, `content_type_id`, `user_id`) VALUES
-(1, '2024-01-11 19:25:34.088611', '1', 'Borivali(east)', 1, 'Added.', 7, 1),
-(2, '2024-01-11 19:25:41.478034', '2', 'Vasai', 1, 'Added.', 7, 1),
-(3, '2024-01-11 19:26:45.637704', '1', 'Karjat', 1, 'Added.', 8, 1),
-(4, '2024-01-11 19:27:06.091873', '2', 'Swargate(pune)', 1, 'Added.', 8, 1),
-(5, '2024-01-11 19:35:51.436921', '1', 'Niki Bus', 1, 'Added.', 9, 1),
-(6, '2024-01-14 17:07:01.451745', '2', 'Jyoti travels', 1, 'Added.', 9, 1),
-(7, '2024-01-14 18:01:06.892988', '2', 'Jyoti travels', 2, 'Changed depature_time.', 9, 1),
-(8, '2024-01-14 18:18:25.895609', '1', 'Niki Bus Travels', 2, 'Changed bus_name.', 9, 1),
+(1, '2024-01-11 19:25:34.088611', '1', 'Tiruppur(north)', 1, 'Added.', 7, 1),
+(2, '2024-01-11 19:25:41.478034', '2', 'Avinashi', 1, 'Added.', 7, 1),
+(3, '2024-01-11 19:26:45.637704', '1', 'Palladam', 1, 'Added.', 8, 1),
+(4, '2024-01-11 19:27:06.091873', '2', 'Collegeroad(Tiruppur)', 1, 'Added.', 8, 1),
+(5, '2024-01-11 19:35:51.436921', '1', 'Aroma Bus', 1, 'Added.', 9, 1),
+(6, '2024-01-14 17:07:01.451745', '2', 'Salman travels', 1, 'Added.', 9, 1),
+(7, '2024-01-14 18:01:06.892988', '2', 'Aroma travels', 2, 'Changed depature_time.', 9, 1),
+(8, '2024-01-14 18:18:25.895609', '1', 'Aroma Bus Travels', 2, 'Changed bus_name.', 9, 1),
 (9, '2024-01-19 15:57:29.133909', '2', 'BUSBK#002', 2, 'Changed status.', 10, 1),
 (10, '2024-01-19 20:48:40.101574', '2', 'andy', 2, 'Changed password.', 4, 1),
 (11, '2024-01-20 16:25:48.180197', '4', 'BUSBK#004', 2, 'Changed status.', 10, 1);
@@ -367,7 +367,7 @@ CREATE TABLE IF NOT EXISTS `django_migrations` (
 INSERT INTO `django_migrations` (`id`, `app`, `name`, `applied`) VALUES
 (1, 'contenttypes', '0001_initial', '2024-01-10 18:25:24.146120'),
 (2, 'auth', '0001_initial', '2024-01-10 18:26:11.550831'),
-(3, 'admin', '0001_initial', '2025-01-10 18:26:20.311332'),
+(3, 'admin', '0001_initial', '2024-01-10 18:26:20.311332'),
 (4, 'admin', '0002_logentry_remove_auto_add', '2024-01-10 18:26:20.675353'),
 (5, 'contenttypes', '0002_remove_content_type_name', '2024-01-10 18:26:23.872536'),
 (6, 'auth', '0002_alter_permission_name_max_length', '2024-01-10 18:26:26.281674'),
