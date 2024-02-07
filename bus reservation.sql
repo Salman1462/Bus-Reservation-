@@ -126,10 +126,10 @@ CREATE TABLE IF NOT EXISTS `auth_user` (
 --
 
 INSERT INTO `auth_user` (`id`, `password`, `last_login`, `is_superuser`, `username`, `first_name`, `last_name`, `email`, `is_staff`, `is_active`, `date_joined`) VALUES
-(1, 'pbkdf2_sha256$24000$6f63EyYtOwBp$Q8xRFwAn+Vo6EGoP9eoHNIEqJlX9oC/LiGNrmW45iIY=', '2016-03-24 14:51:30.970934', 1, 'bus_admin', '', '', 'bus@gmail.com', 1, 1, '2016-03-11 19:21:56.105143'),
-(2, 'pbkdf2_sha256$24000$KyetaLZWY0Uw$GQLJV0yz33MfPWQbRSBqVWvTlcoA1+TffG6RMEGqJv0=', '2016-03-19 20:49:02.590413', 0, 'andy', '', '', '', 0, 1, '2016-03-17 17:50:56.807446'),
-(3, 'pbkdf2_sha256$24000$1NjzqqWkc4Ed$t+aGlg7EVsIEocTn+R994W8JOFIktmYgluYNikoWtws=', '2016-03-17 17:53:27.229433', 0, 'niki', '', '', '', 0, 1, '2016-03-17 17:53:26.437388'),
-(4, 'pbkdf2_sha256$24000$jK3YRS8uu9nP$prrQ5ONDLaxyFOACFOFrTrOm3NNQ9dQZ3cUL0YBtmxw=', '2016-03-20 16:26:05.177169', 0, 'nikichiki', '', '', '', 0, 1, '2016-03-19 15:09:30.251371');
+(1, 'pbkdf2_sha256$24000$6f63EyYtOwBp$Q8xRFwAn+Vo6EGoP9eoHNIEqJlX9oC/LiGNrmW45iIY=', '201-01-24 14:51:30.970934', 1, 'bus_admin', '', '', 'bus@gmail.com', 1, 1, '2024-01-11 19:21:56.105143'),
+(2, 'pbkdf2_sha256$24000$KyetaLZWY0Uw$GQLJV0yz33MfPWQbRSBqVWvTlcoA1+TffG6RMEGqJv0=', '2024-01-19 20:49:02.590413', 0, 'andy', '', '', '', 0, 1, '2024-01-17 17:50:56.807446'),
+(3, 'pbkdf2_sha256$24000$1NjzqqWkc4Ed$t+aGlg7EVsIEocTn+R994W8JOFIktmYgluYNikoWtws=', '2024-01-17 17:53:27.229433', 0, 'niki', '', '', '', 0, 1, '2024-01-17 17:53:26.437388'),
+(4, 'pbkdf2_sha256$24000$jK3YRS8uu9nP$prrQ5ONDLaxyFOACFOFrTrOm3NNQ9dQZ3cUL0YBtmxw=', '2024-01-20 16:26:05.177169', 0, 'nikichiki', '', '', '', 0, 1, '2024-01-19 15:09:30.251371');
 
 -- --------------------------------------------------------
 
